@@ -1,0 +1,16 @@
+[
+{
+  "modid": "teleportals",
+  "name": "Teleportals",
+  "description": "A simple mod that turns anything into a portal to a dimension",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ClubpPetey"],
+  "credits": "Notch, Forge Team and Jabelar for some great tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
