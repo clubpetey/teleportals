@@ -69,3 +69,20 @@ Right-clicking on an ender peral will move your 400 blocks in the X direction
 Right-clicking with an empty hand on a chest with a flint and steel in any slot will teleport the player to x,y,z = 100,100,100 in the End 
 and create a platform of glass below and above the player
     
+## Commands
+Two commands are provided in this mod:
+* /tpi - This will inspect the current block the player is looking at and return the block state and the NBTTag to the chat window.  It is useful for selecting the correct regex pattern or string match to limit the portal.  
+You can also use the form "/tpi hand" to get the registry name meta-value and NBTtag of the item in your hand as well
+
+* /tpp - This is an advanced form of the teleport command (/tp) that works across dimensions.  The usage is:
+
+    /tpp <player>|@p|@a <dim>|* <x> <y> <z> <base?>
+ 
+The first term is the player to teleport with @p being the current player and @a being all players on the server (useful for command blocks)..  
+Next you can specify an dimension ID or use "*" to indicate the current dimension.  Next are the X, Y, and Z coordinates to teleport to.
+finally if you add a "1" after the Z value, a small platform will be created when you teleport, with a roof, to protect you from lava or 
+dragons.
+ 
+ 
+
+
